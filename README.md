@@ -9,7 +9,6 @@ This example covers:
 - Working with Interfaces and their Implementations
 
 ## 📌 Overview
-
 This project uses a `student` class that depends on a `Writer` interface (implemented by `Pen` and `Pencil`).  
 Spring is configured to inject these dependencies via **XML** without manually creating objects in code.
 
