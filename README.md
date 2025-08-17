@@ -31,6 +31,15 @@ src/main/resources/
 springconfig.xml # Spring bean configuration
 ```
 ## ⚙️ Spring Config (`springconfig.xml`)
+Spring Context(New Version	7.0.0-M8)
+```xml
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>7.0.0-M7</version>
+</dependency>
+```
 Example bean configuration:
 ```xml
 <bean id="st1" class="org.example.student">
